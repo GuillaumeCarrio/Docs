@@ -2,7 +2,7 @@
 
 [Accès à la console](Console.md)
 
-Création du cluster
+[Création du contenu de l'EKS](Create.md)
 
 [Suppression du cluster](Delete.md)
 

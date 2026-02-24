@@ -18,6 +18,8 @@
 
 ![Lien d'accès a EKS-Workshop-Ide](../Pictures/eks-workshop-ide.png)
 
+En cas d'abscence de ce lien, le créer en cliquant [ici](https://us-west-2.console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/quickcreate?templateUrl=https://ws-assets-prod-iad-r-pdx-f3b3f9f1a7d6a3d0.s3.us-west-2.amazonaws.com/39146514-f6d5-41cb-86ef-359f9d2f7265/eks-workshop-vscode-cfn.yaml&stackName=eks-workshop-ide&param_RepositoryRef=stable).
+
 ## Aller sur l'onglet "Sorties"
 
 ![Accès aux sorties](../Pictures/sorties.png)
