@@ -1,3 +1,3 @@
 # Home docs
 
-## [Kubernetes EKS](EKS/Home)
+## [Kubernetes EKS](EKS/Home.md)
