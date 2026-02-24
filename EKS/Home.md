@@ -6,4 +6,4 @@
 
 [Suppression du cluster](Delete.md)
 
-Debug et TroubleShooting
+[Debug et TroubleShooting](Debug.md)
