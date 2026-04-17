@@ -1,6 +1,8 @@
 # Ajout d'un agent sur Wazuh
 
-Pour ajouter l'agent, on va aller dans le AGENT SUMMARY en haut a gauche et cliquer sur "Active (0)"
+## Linux
+
+Pour ajouter l'agent sous Linux, on va aller dans le AGENT SUMMARY en haut a gauche et cliquer sur "Active (0)"
 
 ![Wazuh Agent Actifs](../Pictures/ActiveAgentWazuh.png)
 
@@ -27,6 +29,32 @@ sudo systemctl enable wazuh-agent
 
 ```bat
 sudo systemctl start wazuh-agent
+```
+
+Retourner à la liste dess Agents et attendre.
+Si vous n'avez pas fait d'erreur, tout devrait être bon.
+
+## Windows
+
+Pour ajouter l'agent sous Windows, on va aller dans le AGENT SUMMARY en haut a gauche et cliquer sur "Active (0)"
+
+![Wazuh Agent Actifs](../Pictures/ActiveAgentWazuh.png)
+
+On va clicker sur "Deploy new agent"
+
+![Wazuh Agent New](../Pictures/DeployNewAgentWazuh.png)
+
+1. Cocher MSI 32/64 bits.
+2. Mettre l'IP privée de l'EC2 Wazuh.
+3. Mettre le nom de l'EC2 qu'on souhaite lier.
+4. Copier la commande donnée.
+
+Exécuter cette commande dans un powershell sur la VM qu'on souhaite monitorer.
+
+Entrer la commande suivante :
+
+```bat
+NET START Wazuh
 ```
 
 Retourner à la liste dess Agents et attendre.
