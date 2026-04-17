@@ -1,6 +1,6 @@
 # Create EC2 Wazuh
 
-## Paramètrage de l'instance
+## Paramètrage de la création de l'instance
 
 On crée une Instance en t3.large avec 30Go et la vockey.
 
