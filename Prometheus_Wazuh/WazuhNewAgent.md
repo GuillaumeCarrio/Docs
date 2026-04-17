@@ -49,7 +49,7 @@ On va clicker sur "Deploy new agent"
 3. Mettre le nom de l'EC2 qu'on souhaite lier.
 4. Copier la commande donnée.
 
-Exécuter cette commande dans un powershell sur la VM qu'on souhaite monitorer.
+Exécuter cette commande dans un powershell en Admin sur la VM qu'on souhaite monitorer.
 
 Entrer la commande suivante :
 
